@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #332941;
+  color: #fff;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.container h1 {
+  display: flex;
+  color: #f8e559;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.container h1 img {
+  width: 36px;
+  padding-left: 5px;
+}
+
+.container button {
+  display: flex;
+  align-items: center;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 5px;
+
+  background-color: #864af9;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 14px;
+}
+
+.container button img {
+  width: 20px;
+  padding-left: 5px;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background-color: #e4debe;
+  color: #333;
+  padding: 20px;
+  margin: 20px 0;
+  outline: none;
+  border-radius: 5px;
+}
+
+.input-box img {
+  width: 25px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
